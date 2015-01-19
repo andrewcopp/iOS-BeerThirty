@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>BeerThirty WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>BeerThirty.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -18,6 +23,11 @@
 			<true/>
 		</dict>
 		<key>576526C11A663E2E00CC4B6C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>57D9DD9F1A6D597600C62DA7</key>
 		<dict>
 			<key>primary</key>
 			<true/>

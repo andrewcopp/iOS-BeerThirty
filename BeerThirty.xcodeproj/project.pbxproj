@@ -14,6 +14,14 @@
 		576526BA1A663E2E00CC4B6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576526B91A663E2E00CC4B6C /* Images.xcassets */; };
 		576526BD1A663E2E00CC4B6C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 576526BB1A663E2E00CC4B6C /* LaunchScreen.xib */; };
 		576526C91A663E2E00CC4B6C /* BeerThirtyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576526C81A663E2E00CC4B6C /* BeerThirtyTests.swift */; };
+		57D9DD971A6D597600C62DA7 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9DD961A6D597600C62DA7 /* InterfaceController.swift */; };
+		57D9DD991A6D597600C62DA7 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9DD981A6D597600C62DA7 /* NotificationController.swift */; };
+		57D9DD9B1A6D597600C62DA7 /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D9DD9A1A6D597600C62DA7 /* GlanceController.swift */; };
+		57D9DD9D1A6D597600C62DA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D9DD9C1A6D597600C62DA7 /* Images.xcassets */; };
+		57D9DDA11A6D597600C62DA7 /* BeerThirty WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 57D9DDA01A6D597600C62DA7 /* BeerThirty WatchKit App.app */; };
+		57D9DDA91A6D597600C62DA7 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D9DDA71A6D597600C62DA7 /* Interface.storyboard */; };
+		57D9DDAB1A6D597600C62DA7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D9DDAA1A6D597600C62DA7 /* Images.xcassets */; };
+		57D9DDAE1A6D597600C62DA7 /* BeerThirty WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 57D9DD911A6D597600C62DA7 /* BeerThirty WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +32,35 @@
 			remoteGlobalIDString = 576526A91A663E2D00CC4B6C;
 			remoteInfo = BeerThirty;
 		};
+		57D9DDA21A6D597600C62DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576526A21A663E2D00CC4B6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D9DD9F1A6D597600C62DA7;
+			remoteInfo = "BeerThirty WatchKit App";
+		};
+		57D9DDAC1A6D597600C62DA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 576526A21A663E2D00CC4B6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57D9DD901A6D597600C62DA7;
+			remoteInfo = "BeerThirty WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		57D9DDB51A6D597600C62DA7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				57D9DDAE1A6D597600C62DA7 /* BeerThirty WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		576526AA1A663E2D00CC4B6C /* BeerThirty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeerThirty.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +74,17 @@
 		576526C21A663E2E00CC4B6C /* BeerThirtyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeerThirtyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		576526C71A663E2E00CC4B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		576526C81A663E2E00CC4B6C /* BeerThirtyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerThirtyTests.swift; sourceTree = "<group>"; };
+		57D9DD911A6D597600C62DA7 /* BeerThirty WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BeerThirty WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D9DD941A6D597600C62DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D9DD951A6D597600C62DA7 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		57D9DD961A6D597600C62DA7 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		57D9DD981A6D597600C62DA7 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		57D9DD9A1A6D597600C62DA7 /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		57D9DD9C1A6D597600C62DA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		57D9DDA01A6D597600C62DA7 /* BeerThirty WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeerThirty WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D9DDA61A6D597600C62DA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D9DDA81A6D597600C62DA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		57D9DDAA1A6D597600C62DA7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +102,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		57D9DD8E1A6D597600C62DA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +117,8 @@
 			children = (
 				576526AC1A663E2D00CC4B6C /* BeerThirty */,
 				576526C51A663E2E00CC4B6C /* BeerThirtyTests */,
+				57D9DD921A6D597600C62DA7 /* BeerThirty WatchKit Extension */,
+				57D9DDA41A6D597600C62DA7 /* BeerThirty WatchKit App */,
 				576526AB1A663E2D00CC4B6C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +128,8 @@
 			children = (
 				576526AA1A663E2D00CC4B6C /* BeerThirty.app */,
 				576526C21A663E2E00CC4B6C /* BeerThirtyTests.xctest */,
+				57D9DD911A6D597600C62DA7 /* BeerThirty WatchKit Extension.appex */,
+				57D9DDA01A6D597600C62DA7 /* BeerThirty WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +173,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		57D9DD921A6D597600C62DA7 /* BeerThirty WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				57D9DD961A6D597600C62DA7 /* InterfaceController.swift */,
+				57D9DD981A6D597600C62DA7 /* NotificationController.swift */,
+				57D9DD9A1A6D597600C62DA7 /* GlanceController.swift */,
+				57D9DD9C1A6D597600C62DA7 /* Images.xcassets */,
+				57D9DD931A6D597600C62DA7 /* Supporting Files */,
+			);
+			path = "BeerThirty WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		57D9DD931A6D597600C62DA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57D9DD941A6D597600C62DA7 /* Info.plist */,
+				57D9DD951A6D597600C62DA7 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57D9DDA41A6D597600C62DA7 /* BeerThirty WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				57D9DDA71A6D597600C62DA7 /* Interface.storyboard */,
+				57D9DDAA1A6D597600C62DA7 /* Images.xcassets */,
+				57D9DDA51A6D597600C62DA7 /* Supporting Files */,
+			);
+			path = "BeerThirty WatchKit App";
+			sourceTree = "<group>";
+		};
+		57D9DDA51A6D597600C62DA7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57D9DDA61A6D597600C62DA7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +222,12 @@
 				576526A61A663E2D00CC4B6C /* Sources */,
 				576526A71A663E2D00CC4B6C /* Frameworks */,
 				576526A81A663E2D00CC4B6C /* Resources */,
+				57D9DDB51A6D597600C62DA7 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				57D9DDAD1A6D597600C62DA7 /* PBXTargetDependency */,
 			);
 			name = BeerThirty;
 			productName = BeerThirty;
@@ -153,6 +252,39 @@
 			productReference = 576526C21A663E2E00CC4B6C /* BeerThirtyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		57D9DD901A6D597600C62DA7 /* BeerThirty WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D9DDB41A6D597600C62DA7 /* Build configuration list for PBXNativeTarget "BeerThirty WatchKit Extension" */;
+			buildPhases = (
+				57D9DD8D1A6D597600C62DA7 /* Sources */,
+				57D9DD8E1A6D597600C62DA7 /* Frameworks */,
+				57D9DD8F1A6D597600C62DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57D9DDA31A6D597600C62DA7 /* PBXTargetDependency */,
+			);
+			name = "BeerThirty WatchKit Extension";
+			productName = "BeerThirty WatchKit Extension";
+			productReference = 57D9DD911A6D597600C62DA7 /* BeerThirty WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		57D9DD9F1A6D597600C62DA7 /* BeerThirty WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57D9DDB31A6D597600C62DA7 /* Build configuration list for PBXNativeTarget "BeerThirty WatchKit App" */;
+			buildPhases = (
+				57D9DD9E1A6D597600C62DA7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeerThirty WatchKit App";
+			productName = "BeerThirty WatchKit App";
+			productReference = 57D9DDA01A6D597600C62DA7 /* BeerThirty WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,6 +300,12 @@
 					576526C11A663E2E00CC4B6C = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 576526A91A663E2D00CC4B6C;
+					};
+					57D9DD901A6D597600C62DA7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					57D9DD9F1A6D597600C62DA7 = {
+						CreatedOnToolsVersion = 6.2;
 					};
 				};
 			};
@@ -186,6 +324,8 @@
 			targets = (
 				576526A91A663E2D00CC4B6C /* BeerThirty */,
 				576526C11A663E2E00CC4B6C /* BeerThirtyTests */,
+				57D9DD901A6D597600C62DA7 /* BeerThirty WatchKit Extension */,
+				57D9DD9F1A6D597600C62DA7 /* BeerThirty WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +345,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D9DD8F1A6D597600C62DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D9DDA11A6D597600C62DA7 /* BeerThirty WatchKit App.app in Resources */,
+				57D9DD9D1A6D597600C62DA7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57D9DD9E1A6D597600C62DA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D9DDA91A6D597600C62DA7 /* Interface.storyboard in Resources */,
+				57D9DDAB1A6D597600C62DA7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +387,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		57D9DD8D1A6D597600C62DA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57D9DD991A6D597600C62DA7 /* NotificationController.swift in Sources */,
+				57D9DD971A6D597600C62DA7 /* InterfaceController.swift in Sources */,
+				57D9DD9B1A6D597600C62DA7 /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +404,16 @@
 			isa = PBXTargetDependency;
 			target = 576526A91A663E2D00CC4B6C /* BeerThirty */;
 			targetProxy = 576526C31A663E2E00CC4B6C /* PBXContainerItemProxy */;
+		};
+		57D9DDA31A6D597600C62DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D9DD9F1A6D597600C62DA7 /* BeerThirty WatchKit App */;
+			targetProxy = 57D9DDA21A6D597600C62DA7 /* PBXContainerItemProxy */;
+		};
+		57D9DDAD1A6D597600C62DA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57D9DD901A6D597600C62DA7 /* BeerThirty WatchKit Extension */;
+			targetProxy = 57D9DDAC1A6D597600C62DA7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -254,6 +432,14 @@
 				576526BC1A663E2E00CC4B6C /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		57D9DDA71A6D597600C62DA7 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57D9DDA81A6D597600C62DA7 /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -342,7 +528,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = BeerThirty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -352,7 +540,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = BeerThirty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -392,6 +582,62 @@
 			};
 			name = Release;
 		};
+		57D9DDAF1A6D597600C62DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BeerThirty WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		57D9DDB01A6D597600C62DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "BeerThirty WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		57D9DDB11A6D597600C62DA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = BeerThirty_WatchKit_Extension;
+				INFOPLIST_FILE = "BeerThirty WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		57D9DDB21A6D597600C62DA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				IBSC_MODULE = BeerThirty_WatchKit_Extension;
+				INFOPLIST_FILE = "BeerThirty WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,12 +657,30 @@
 				576526CE1A663E2E00CC4B6C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		576526CF1A663E2E00CC4B6C /* Build configuration list for PBXNativeTarget "BeerThirtyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				576526D01A663E2E00CC4B6C /* Debug */,
 				576526D11A663E2E00CC4B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57D9DDB31A6D597600C62DA7 /* Build configuration list for PBXNativeTarget "BeerThirty WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D9DDB11A6D597600C62DA7 /* Debug */,
+				57D9DDB21A6D597600C62DA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		57D9DDB41A6D597600C62DA7 /* Build configuration list for PBXNativeTarget "BeerThirty WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57D9DDAF1A6D597600C62DA7 /* Debug */,
+				57D9DDB01A6D597600C62DA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
